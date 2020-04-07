@@ -157,7 +157,7 @@
   #box-front {
     transform:translateX(150px) translateY(200px) translateZ(50px);
    background-color:rgba(11, 12, 11, 0.5);
-   background-image:url('../src/imges/icons8-html-5-240.png') ;
+   background-image:url('/src/imges/icons8-html-5-240.png') ;
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;
