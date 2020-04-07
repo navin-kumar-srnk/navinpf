@@ -190,9 +190,8 @@ h1{
   }
   .a{
     text-decoration: none;
-   position: relative;
-   top:20px; 
-  
+
+
    font-size:large;
    font-weight: bold;
    font-style: oblique;
@@ -270,6 +269,12 @@ hr.style-one {
   background-color: skyblue;
   overflow-x: hidden;
 }
+
+
+.col-sm-3{
+  text-align: center;
+}
+
 
 
 
