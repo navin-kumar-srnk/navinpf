@@ -439,3 +439,8 @@ hr.style-one {
 
 
 }
+
+
+.list-unstyled li{
+display: inline;  
+}
