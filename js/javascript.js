@@ -7,7 +7,7 @@ window.addEventListener("load", ()=>{
         navigator.geolocation.getCurrentPosition(position=>{
             lat=position.coords.latitude;
             lon=position.coords.longitude;
-            const url='https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=c4fca9daeed78b9f45e1f6cfeb035582&units=metric';
+            const url='https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&appid=c4fca9daeed78b9f45e1f6cfeb035582&units=metric';
             fetch(url).then(data=>{
                 return data.json().then(d=>{
                     console.log(d);
