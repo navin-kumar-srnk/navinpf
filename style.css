@@ -24,7 +24,7 @@ h1{
   .div{
     position: absolute;
     top: 160px;
-    left:930px;
+    left:730px;
   }
   .tree{
   width: 50%;
@@ -315,7 +315,7 @@ hr.style-one {
     .div{
       position: absolute;
       top: 160px;
-     left: 50px;
+     left:0px;
     }
 
     .cloud{
@@ -443,4 +443,9 @@ hr.style-one {
 
 .list-unstyled li{
 display: inline;  
+}
+
+#temp{
+
+  display: inline;
 }
