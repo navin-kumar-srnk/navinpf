@@ -198,14 +198,12 @@ h1{
   }
   .a{
     text-decoration: none;
-
+  font-weight: 1000;
+  font-style: italic;
     position: relative;
     top:10px; 
    left:0px;
-   font-size:large;
-   font-weight: bold;
-   font-style: oblique;
-   color: rgb(44, 34, 34);
+ color: rgb(9, 10, 9);
 
   }
 
@@ -218,7 +216,7 @@ h1{
     background-size:cover;
     border-radius: 50%;
     margin: 30px auto 0 auto;
-    border: 10px solid black;
+    border: 5px solid rgb(232, 233, 232);
 }
 #profile{
     transition-duration: 4s;
@@ -301,6 +299,49 @@ hr.style-one {
 
 
 
+
+
+
+
+
+.list-unstyled li{
+display: inline;  
+}
+#weather{
+  display: inline;
+}
+#temp {
+  display: inline;
+}
+.sunny{
+  background-image: url(./src/imges/sun_PNG13450.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.rainy{
+  background-image: url(./src/imges/kisspng-blue-sky-wallpaper-rain-clouds-5a7b071a324c42.1004561415180121862061.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+  #b{
+  
+    overflow-x: hidden;
+
+  }
+
+.day{
+
+  background-color: skyblue;
+  overflow-x: hidden;
+}
+.night
+{
+   
+  background-color: black;
+  overflow-x: hidden;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -435,44 +476,4 @@ hr.style-one {
  
 
 
-}
-
-
-.list-unstyled li{
-display: inline;  
-}
-#weather{
-  display: inline;
-}
-#temp {
-  display: inline;
-}
-.sunny{
-  background-image: url(./src/imges/sun_PNG13450.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.rainy{
-  background-image: url(./src/imges/kisspng-blue-sky-wallpaper-rain-clouds-5a7b071a324c42.1004561415180121862061.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-  #b{
-  
-    overflow-x: hidden;
-
-  }
-
-.day{
-
-  background-color: skyblue;
-  overflow-x: hidden;
-}
-.night
-{
-   
-  background-color: black;
-  overflow-x: hidden;
 }
