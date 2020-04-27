@@ -20,6 +20,7 @@ h1{
     margin:0 auto 0 auto ;}
   p{
     color: whitesmoke;
+    width:100%;
   }
   .div{
     position: absolute;
@@ -99,13 +100,15 @@ h1{
   .na{
     color: black;
   font-family: sans;
+  font-weight:1000;
   
   }
   .p{
     position: absolute;
     top:   40px;
     left:43px;
-    font-weight: bolder;
+    font-weight: 700;
+    font-style: italic;
   }
   .rock1
   { text-align: center;
@@ -333,7 +336,7 @@ hr.style-one {
     .div{
       position: absolute;
       top: 180px;
-     left:130px;
+     left:100px;
     }
 
     .cloud{
