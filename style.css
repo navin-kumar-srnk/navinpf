@@ -1,7 +1,7 @@
 
 html{
     scroll-behavior: smooth;
-background-color: skyblue;
+
 }
 *{
     padding: 0%;
@@ -119,6 +119,8 @@ h1{
       right:200px;
     
   }
+  #weatherdiv{
+    position: absolute;top:10px;right:30px;border-radius: 50%;;padding: 10px;width: 150px;height: 150px;z-index: 1;}
  
   .rock2
   {text-align: center;
@@ -264,10 +266,26 @@ hr.style-one {
  text-align: end;
 }
 
-
-.b{
-  background-color: skyblue;
-  overflow-x: hidden;
+.rain{
+  animation: rain 0.5s linear infinite  ;
+  background-image: url(./src/imges/rain.png);
+  background-repeat: repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+@keyframes rain{
+  from
+  { 
+    background-position: center center;
+  }
+ 
+  to{
+    background-position: 10% 10%;
+  
+  }
 }
 
 
@@ -283,13 +301,15 @@ hr.style-one {
 
 @media only screen and (max-width: 600px) {
   
-  
+  #weatherdiv{
+    position: absolute;top:0px;left:0px;border-radius: 50%;;padding: 0px;width: 150px;height: 150px;z-index: 1;}
   .tree{
-    width: 80%;
-    height:500px;
-    margin-top: 20px;
+    width: 100%;
+    height:450px;
+    margin-top: 70px;
    margin-left: 0px;
    padding: o;
+   z-index: 10;
     }
     .grass{
       width:360px;
@@ -314,8 +334,8 @@ hr.style-one {
     }
     .div{
       position: absolute;
-      top: 160px;
-     left:0px;
+      top: 180px;
+     left:70px;
     }
 
     .cloud{
@@ -323,6 +343,8 @@ hr.style-one {
      height: 100px;
      position: absolute;
      left:0;
+     top:100px;
+     z-index: -1;
      
      animation-name: cloud;
      animation-iteration-count: infinite;
@@ -444,8 +466,38 @@ hr.style-one {
 .list-unstyled li{
 display: inline;  
 }
-
-#temp{
-
+#weather{
   display: inline;
+}
+#temp {
+  display: inline;
+}
+.sunny{
+  background-image: url(./src/imges/sun_PNG13450.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.rainy{
+  background-image: url(./src/imges/kisspng-blue-sky-wallpaper-rain-clouds-5a7b071a324c42.1004561415180121862061.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+  #b{
+  
+    overflow-x: hidden;
+
+  }
+
+.day{
+
+  background-color: skyblue;
+  overflow-x: hidden;
+}
+.night
+{
+
+  background-color: black;
+  overflow-x: hidden;
 }
