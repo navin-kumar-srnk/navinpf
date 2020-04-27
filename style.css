@@ -18,12 +18,19 @@ h1{
     color: whitesmoke;
     
     margin:0 auto 0 auto ;}
-  p{
-    color: whitesmoke;
-    width:100%;
+    .na{
+      color: black;
+    font-family: sans;
     font-weight:1000;
-    font-style: italic;
-  }
+    
+    }
+    .p{
+      position: absolute;
+      top:   40px;
+      left:43px;
+      font-weight: 700;
+      font-style: italic;
+    }
   .div{
     position: absolute;
     top: 160px;
@@ -99,12 +106,6 @@ h1{
    
   }
 
-  .na{
-    color: black;
-  font-family: sans;
-  font-weight:1000;
-  
-  }
   .p{
     position: absolute;
     top:   40px;
@@ -339,7 +340,13 @@ hr.style-one {
       position: absolute;
       top: 180px;
      left:100px;
+    }.na{
+      color: black;
+    font-family: sans;
+    font-weight:1000;
+    
     }
+   
 
     .cloud{
       width: 150px;
