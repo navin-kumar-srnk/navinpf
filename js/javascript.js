@@ -21,6 +21,7 @@ window.addEventListener("load", ()=>{
                         document.getElementById("rain").classList.add("rain");
                         document.getElementById("weatherdiv").classList.add("rainy");
                     }
+                    
                     else if(d.weather[0].main=="Clouds")
                     {
                         document.getElementById("weatherdiv").classList.add("rainy");
@@ -31,6 +32,7 @@ window.addEventListener("load", ()=>{
                     {
                         document.getElementById("weatherdiv").classList.add("sunny");
                     }
+                    
                     else
                     {
                         document.getElementById("weatherdiv").classList.add("sunny");

@@ -339,22 +339,21 @@ hr.style-one {
     }
 
     .cloud{
-      width: 300px;
-     height: 100px;
+      width: 150px;
+     height: 30px;
      position: absolute;
      left:0;
-     top:100px;
+     top:90px;
      z-index: -1;
-     
      animation-name: cloud;
      animation-iteration-count: infinite;
-     animation-duration: 3s;
+     animation-duration: 20s;
      animation-direction: alternate;
      }
      
      @keyframes cloud{
        from {left:0px}
-       to {left: 60px;}
+       to {left: 180px;}
      }
      .cloud1{
   display: none;}
