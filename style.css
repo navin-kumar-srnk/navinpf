@@ -21,6 +21,8 @@ h1{
   p{
     color: whitesmoke;
     width:100%;
+    font-weight:1000;
+    font-style: italic;
   }
   .div{
     position: absolute;
