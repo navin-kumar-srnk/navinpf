@@ -193,18 +193,16 @@ h1{
   .a{
     text-decoration: none;
 
-
+    position: relative;
+    top:10px; 
+   left:0px;
    font-size:large;
    font-weight: bold;
    font-style: oblique;
    color: rgb(44, 34, 34);
 
   }
-  .rock1:hover,.rock2:hover,.rock3:hover,.rock4:hover,.rock5:hover,.rock6:hover{
-      transform: scale(1.3);
-      transition: ease;
-      transition-duration: 2s;
-  }
+
 
 .dp{
     width:250px;
@@ -312,11 +310,11 @@ hr.style-one {
    z-index: 10;
     }
     .grass{
-      width:360px;
-      height: 100px;
+      width:100%;
+      height: 110px;
       position: absolute;
       top:460px;
-      left: 0;
+      left: 0px;
       
     }
     .grass1{
@@ -330,12 +328,12 @@ hr.style-one {
     }
     .root
     {
-      width:360px
+      width:100%;
     }
     .div{
       position: absolute;
       top: 180px;
-     left:70px;
+     left:130px;
     }
 
     .cloud{
@@ -360,14 +358,15 @@ hr.style-one {
 
   .rock1
   { text-align: center;
-      width:40px;
-      height:40px;
+      width:90px;
+      height:50px;
       background-image: url("src/imges/kisspng-rock-free-content-clip-art-cartoon-rock-cliparts-5aa9f89aab2413.939412701521088666701.png");
       background-repeat: no-repeat;
       background-size: contain;
       position: absolute;
       top:490px;
       right:200px;
+      cursor: pointer;
     
   }
  
@@ -376,55 +375,20 @@ hr.style-one {
     background-image: url("src/imges/kisspng-rock-free-content-clip-art-cartoon-rock-cliparts-5aa9f89aab2413.939412701521088666701.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width:40px;
-    height: 40px;
+    width:90px;
+    height:50px;
     position: absolute;
     top:520px;
-    right:280px;
+    left: 250px;
+    cursor: pointer;
   
   
   }
   
-  .rock3
-  {text-align: center;
-    width:40px;
-    height: 40px;
-    background-image: url("src/imges/kisspng-rock-free-content-clip-art-cartoon-rock-cliparts-5aa9f89aab2413.939412701521088666701.png");
-      background-repeat: no-repeat;
-      background-size: contain;
-    position: absolute;
-   top: 500px;
-    left:300px;
+
+
  
-  
-  }
-  .rock4
-  {text-align: center;
-    background-image: url("src/imges/kisspng-rock-free-content-clip-art-cartoon-rock-cliparts-5aa9f89aab2413.939412701521088666701.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width:40px;
-    height: 40px;
-    position: absolute;
-    top: 550px;
-    left:200px;
- 
-  
-  }
- 
-  
-  .rock5
-  {text-align: center;
-    background-image: url("src/imges/kisspng-rock-free-content-clip-art-cartoon-rock-cliparts-5aa9f89aab2413.939412701521088666701.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width:40px;
-    height: 40px;
-    position: absolute;
-    top: 600px;
-    right:340px;
-  
-  }
+
 
   .rock5
 
@@ -433,30 +397,30 @@ hr.style-one {
       background-image: url("src/imges/kisspng-rock-free-content-clip-art-cartoon-rock-cliparts-5aa9f89aab2413.939412701521088666701.png");
     background-repeat: no-repeat;
     background-size: contain;
-    width:40px;
-    height: 40px;
+    width:90px;
+    height:50px;
     position: absolute;
     top: 650px;
     right:270px;
+    cursor: pointer;
   
   }
   .a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
     text-decoration: none;
    position: relative;
-   top:0px; 
-  
+   top:10px; 
+  left:0px;
    font-size:small;
    font-weight: bold;
    font-style: oblique;
    color: rgb(44, 34, 34);
 
   }
-  .rock1:hover,.rock2:hover,.rock3:hover,.rock4:hover,.rock5:hover,.rock6:hover{
-      transform: scale(1.3);
-      transition: ease;
-      transition-duration: 2s;
-  }
-
+ 
 
 
 }
