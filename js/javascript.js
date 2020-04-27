@@ -53,7 +53,7 @@ window.addEventListener("load", ()=>{
        document.getElementById("b").classList.add("day");
    }
    else 
-   {
+   {    
        document.getElementById("b").classList.add("night");
    }
 

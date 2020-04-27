@@ -24,7 +24,7 @@ h1{
   .div{
     position: absolute;
     top: 160px;
-    left:730px;
+    left:300px;
   }
   .tree{
   width: 50%;
@@ -131,7 +131,7 @@ h1{
     height: 80px;
     position: absolute;
     top:760px;
-    right:200px;
+    left: 280px;
   
   
   }
@@ -172,7 +172,7 @@ h1{
     height: 80px;
     position: absolute;
     top: 600px;
-    right:340px;
+    right:600px;
   
   }
 
@@ -496,7 +496,7 @@ display: inline;
 }
 .night
 {
-
+   
   background-color: black;
   overflow-x: hidden;
 }
