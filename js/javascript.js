@@ -82,3 +82,7 @@ window.addEventListener("load", ()=>{
 
 
 
+function login()
+{
+alert("login coming soon")
+}
