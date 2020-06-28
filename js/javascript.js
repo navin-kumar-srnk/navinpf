@@ -40,6 +40,11 @@ window.addEventListener("load", ()=>{
                         document.getElementById("weatherdiv").classList.add("rainy");
                         document.getElementById("rain").classList.add("rain");
                     }
+                    else if(d.weather[0].main=="Drizzle")
+                    {
+                        
+                        document.getElementById("weatherdiv").classList.add("rainy");
+                    }
                     else{
                         var hr = (new Date()).getHours(); 
                         if(hr>4 && hr<18)
@@ -74,5 +79,6 @@ window.addEventListener("load", ()=>{
 
                
 });
+
 
 
