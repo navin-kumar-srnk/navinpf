@@ -98,7 +98,7 @@ h1{
     from {right:0px}
     to {right: 1000px;}
   }
-    .earth{
+    .earth{@keyframes rain
    
    background:brown;
    background-image: linear-gradient( rgb(109, 77, 30) 10%, #9D5F38 40%);
@@ -274,18 +274,18 @@ hr.style-one {
   background-repeat: repeat;
   background-size: contain;
   background-attachment: fixed;
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
 }
 @keyframes rain{
   from
   { 
-    background-position: center center;
+    background-position: 0 0;
   }
  
   to{
-    background-position: 10% 10%;
+    background-position: 20% 100%;
   
   }
 }
@@ -345,6 +345,8 @@ display: inline;
 
 
 @media only screen and (max-width: 600px) {
+  
+
   
   #weatherdiv{
     position: absolute;top:0px;left:0px;border-radius: 50%;;padding: 0px;width: 150px;height: 150px;z-index: 1;}

@@ -24,7 +24,9 @@ window.addEventListener("load", ()=>{
                     
                     else if(d.weather[0].main=="Clouds")
                     {
+                        
                         document.getElementById("weatherdiv").classList.add("rainy");
+                        document.getElementById("rain").classList.add("rain");
                    
                     }
                  
@@ -32,10 +34,22 @@ window.addEventListener("load", ()=>{
                     {
                         document.getElementById("weatherdiv").classList.add("sunny");
                     }
-                    
-                    else
+                    else if(d.weather[0].main=="Thunderstorm")
                     {
-                        document.getElementById("weatherdiv").classList.add("sunny");
+                        
+                        document.getElementById("weatherdiv").classList.add("rainy");
+                        document.getElementById("rain").classList.add("rain");
+                    }
+                    else{
+                        var hr = (new Date()).getHours(); 
+                        if(hr>4 && hr<18)
+                        {
+                            document.getElementById("weatherdiv").classList.add("sunny");
+                        }
+                        else 
+                        {        
+                            document.getElementById("weatherdiv").classList.add("night");
+                        }
 
                     }
                 })
@@ -45,7 +59,7 @@ window.addEventListener("load", ()=>{
        })
    }
 
-   /* daya and night background*/
+   /* day and night background*/
 
    var hr = (new Date()).getHours(); 
    if(hr>4 && hr<18)
@@ -53,7 +67,7 @@ window.addEventListener("load", ()=>{
        document.getElementById("b").classList.add("day");
    }
    else 
-   {    
+   {        
        document.getElementById("b").classList.add("night");
    }
 
