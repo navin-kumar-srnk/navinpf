@@ -483,3 +483,11 @@ display: inline;
 
 
 }
+
+.proCard{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
